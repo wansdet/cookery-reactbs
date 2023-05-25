@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -23,7 +23,17 @@
 }
 
 .App-link {
-  color: rgb(112, 76, 182);
+  color: #61dafb;
+}
+
+.account-links {
+  display: flex;
+  margin-left: auto;
+  color: white;
+}
+
+.contentArea {
+  margin-Bottom: 80px;
 }
 
 @keyframes App-logo-float {

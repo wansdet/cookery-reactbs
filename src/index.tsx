@@ -1,10 +1,15 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
-import { store } from './app/store';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import { store } from './core/store';
 import './index.css';
+import "primereact/resources/primereact.min.css";
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
